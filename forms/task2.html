@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  
+ 
+        <form>
+            <center>
+                <h1>JNTUA COLLEGE OF ENGINEERING ANANTAPURAM</h1>
+                <h3>Student Registration Form</h3>
+                <fieldset>
+                    <legend>Fill mandatory</legend>
+                    <label for="photo">Student Photo</label>
+                    <input type="file" name="photo" id="photo"><br>
+    
+                    <label for="fn">Firstname</label>
+                    <input type="text" id="fn" name="firstname" minlength="5" maxlength="15">
+                    <br>
+                    <label for="ml">Middlename</label>
+                    <input type="text" id="ml" name="middlename" minlength="5" maxlength="15">
+                    <br>
+                    <label for="ls">Lastname</label>
+                    <input type="text" id="ls" name="lastname" minlength="5" maxlength="15">
+                    <br>
+                    <label for="Course">Course</label>
+                    <select name="course" id="Course">
+                        <option value="">Select the Course</option>
+                        <option value="MECH">MECH</option>
+                        <option value="EEE">EEE</option>
+                        <option value="ECE">ECE</option>
+                        <option value="CIVIL">CIVIL</option>
+                        <option value="CSE">CSE</option>
+                    </select>
+                    <br>
+                    <label for="gender">Gender</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="fmale" name="gender" value="female">
+                    <label for="fmale">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                    <br>
+                    <label for="num">Phone</label>
+                    <input type="text" id="num" name="phone" placeholder="+91 987456123">
+                    <br>
+                    <label for="add">Address</label><br>
+                    <textarea id="add" name="address" rows="5" cols="60"></textarea>
+                    <br>
+                    <label for="mail">Email</label>
+                    <input type="email" id="mail" name="email"/><br>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password"/><br>
+                    <label for="repassword">Re-type Password</label>
+                    <input type="password" id="repassword" name="resetpassword"/><br>
+                    <br><br>
+                    <input type="submit"/>
+                    <input type="reset" value="Reset"/>
+                </fieldset>
+            </center>
+        </form>
+    </body>
+    </html>
+    
+</body>
+</html>
